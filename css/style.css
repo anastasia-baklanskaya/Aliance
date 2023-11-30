@@ -85,7 +85,7 @@ body {
 }
 .header-nav-link {
   text-decoration: none;
-  font-size: .875rem;
+  font-size: 1rem;
   color: inherit;
   word-spacing: 2px;
 }
@@ -99,11 +99,11 @@ body {
 }
 .header-phone-link {
   text-decoration: none;
-  font-size: .875rem;
+  font-size: 1rem;
   color: inherit;
 }
 .button {
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   color: #fff;
@@ -143,7 +143,7 @@ body {
 }
 .header-text {
   max-width: 40.3125rem;
-  font-size: .875rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -164,7 +164,7 @@ body {
 }
 .header-features-text {
   font-weight: 400;
-  font-size: .875rem;
+  font-size: 1rem;
   line-height: 160%;
 }
 .header-features-item:not(:last-child) {
@@ -218,7 +218,7 @@ body {
 }
 .steps-text {
   color: #828A99;
-  font-size: .875rem;
+  font-size: .1rem;
   font-weight: 400;
   line-height: 160%;
   margin-top: 1rem;
@@ -230,7 +230,7 @@ body {
   align-items: center;
   text-decoration: none;
   color: #5C8EE5;
-  font-size: .875rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
 }
