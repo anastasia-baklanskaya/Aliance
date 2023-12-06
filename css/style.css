@@ -264,7 +264,7 @@ body {
   margin-right: 20px;
 }
 .steps-buttons {
-  display: none;
+  display: block;
   height: 40px;
   justify-content: flex-end;
 }
