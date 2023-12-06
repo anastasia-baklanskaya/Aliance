@@ -263,6 +263,21 @@ body {
   background: #5C8EE5;
   margin-right: 20px;
 }
+.steps-buttons {
+  display: none;
+  height: 40px;
+  justify-content: flex-end;
+}
+.steps-button-prev, 
+.steps-button-next {
+  background: #5C8EE5;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -306,6 +321,9 @@ body {
     padding-right: 2rem;
   }
   .slider-buttons {
+    display: flex;
+  }
+  .steps-buttons {
     display: flex;
   }
 }
@@ -441,11 +459,15 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);
   }
-  /* .social-media {
+  .social-media {
     display: flex;
     align-items: center;
     fill: #5C8EE6;
-  } */
+    margin-top: 20px;
+  }
+  .inst-icon {
+    margin-left: 15px;
+  }
 }
 @media (max-width: 576px) {
   .container {
