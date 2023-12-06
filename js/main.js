@@ -41,7 +41,7 @@ const swiper = new Swiper('.swiper', {
   navigation: {
     nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',
-  }
+  };
   breakpoints: {
     // when window width is >= 576px
     576: {

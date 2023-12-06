@@ -351,7 +351,7 @@ body {
     fill:#ffffff;
   }
   .mobile-menu {
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -367,7 +367,7 @@ body {
     padding-right: 1.5rem;
   }
   .mobile-menu.is-open {
-    display: none;
+    display: block;
   }
   .mobile-menu-nav {
     list-style: none;
