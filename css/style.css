@@ -171,11 +171,11 @@ body {
   font-size: 4.0625rem;
   line-height: 120%;
   margin: 2.0625rem 0;
-  letter-spacing: 3px;
+  letter-spacing: -2px;
 }
 .header-text {
   max-width: 40.3125rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -381,6 +381,8 @@ body {
   width: 22.5rem;
 }
 .mark-image {
+  width: 180px;
+  height: 180px;
   margin-left: 50px;
 }
 .mark:hover .mark-title {
@@ -426,7 +428,7 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -443,6 +445,7 @@ body {
   }
   .mark {
     flex-basis: 50%;
+  }
 }
 @media (max-width: 992px) {
   html {
@@ -458,13 +461,20 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .navbar-button {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.3rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240, 0.20);
   }
   .navbar-light .mobile-menu-line {
@@ -593,24 +603,69 @@ body {
   .header-title {
     font-size: 4rem;
   }
+  .header-text {
+    margin-top: -23px;
+  }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
+  }
+  .section-title {
+    font-size: 2.8rem;
+    letter-spacing: -0.6px;
+  }
+  .steps-num {
+    font-size: 3.6rem;
+  }
+  .steps-item {
+    max-width: 24.6rem;
+  }
+  .steps-text {
+    font-size: 1.1rem;
+  }
+  .card-title {
+    letter-spacing: -1px;
+  }
+  .cars-text {
+    font-size: 1.1rem;
   }
   .card {
     flex-basis: 100%;
   }
   .mark {
-    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mark-image {
+    width: 100px;
+    height: 100px;
+  }
+  .mark-title {
+    width: 155px;
+    font-size: 1.5rem;
+  }
+  .mark-image .mark-title {
+    position: top;
   }
 }
+
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
   }
-  .header-title {
-    font-size: 2rem;
+  .mark {
+    width: 340px;
+    height: 256px;
+    margin: 0;
+   
   }
-  .header-content {
-    padding-top: 2rem;
+  .mark-image {
+    margin-left: 1.25rem;
+    display: flex;
+    align-items: flex-start;
   }
+  .mark-text {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
 }
