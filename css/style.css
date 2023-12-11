@@ -349,49 +349,55 @@ body {
   z-index: 0;
   width: 90%;
 }
-.marks {
+.trademark-cards {
   display: flex;
-  flex-wrap: wrap;
 }
-.mark {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
+.trademark-card {
   flex-basis: 50%;
-  height: 280px;
-  border: 1px solid #EBEBF0;
+  text-decoration: none;
+  border: 1px solid #ebebf0;
   transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas: 
+    "logo title title"
+    "logo text text";
 }
-.mark-content {
- padding: 50px 50px 71px;
- gap: 10px;
+.trademark-card-logo {
+  width: 100%;
+  height: 11.25rem;
+  fill: #828a99;
+  grid-area: logo;
 }
-.mark-title {
-  color: #292D33;
+.trademark-card-title {
   font-size: 1.75rem;
+  margin: 0;
+  line-height: 160%;
   font-weight: 400;
-  line-height: 160%; 
-  margin-bottom: 10px;
-  transition: color 0.2s;
+  color: #292D33;
+  grid-area: title;
 }
-.mark-text {
+.trademark-card-text {
+  grid-area: text;
   color: #828A99;
   font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
   line-height: 160%;
-  width: 22.5rem;
+  margin-top: .625rem;
 }
-.mark-image {
-  width: 180px;
-  height: 180px;
-  margin-left: 50px;
-}
-.mark:hover .mark-title {
-  color: #5C8EE5;
-}
-.mark:hover {
+.trademark-card:hover {
   border-color: #5C8EE5;
 }
-
+.trademark-card:hover .trademark-card-logo {
+  fill: #5C8EE5;
+}
+.trademark-card:hover .trademark-card-title {
+  color: #5C8EE5;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -443,8 +449,8 @@ body {
   .card {
     flex-basis: 50%;
   }
-  .mark {
-    flex-basis: 50%;
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
 }
 @media (max-width: 992px) {
@@ -595,6 +601,9 @@ body {
   .inst-icon {
     margin-left: 15px;
   }
+  .trademark-cards {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -631,41 +640,28 @@ body {
   .card {
     flex-basis: 100%;
   }
-  .mark {
-    display: flex;
-    align-items: center;
-  }
-  .mark-image {
-    width: 100px;
-    height: 100px;
-  }
-  .mark-title {
-    width: 155px;
-    font-size: 1.5rem;
-  }
-  .mark-image .mark-title {
-    position: top;
-  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
   }
-  .mark {
-    width: 340px;
-    height: 256px;
-    margin: 0;
-   
+  .trademark-card {
+    grid-template-areas: 
+      "logo title"
+      "text text";
+      grid-column-gap: 20px;
   }
-  .mark-image {
-    margin-left: 1.25rem;
-    display: flex;
-    align-items: flex-start;
+  .trademark-card-title {
+    font-size: 1.60rem;
   }
-  .mark-text {
-    display: flex;
-    flex-wrap: nowrap;
+  .trademark-card-logo {
+    width: 8.125rem;
+    height: 8.125rem;
   }
-
+  .trademark-card-text {
+    margin-top: 1.25rem;
+    margin-bottom: .3125rem;
+    font-size: ;
+  }
 }
