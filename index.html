@@ -123,7 +123,7 @@
         </a>
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button">
+      <button class="navbar-button button" data-toggle="modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
@@ -139,7 +139,9 @@
           </h1>
           <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
           </p>
-          <div class="button">Подробнее о компании</div>
+          <button class="button header-button" data-toggle="modal">
+            Подробнее о компании
+          </button>
         </div>
       <!-- /.header-content -->
 
@@ -694,6 +696,53 @@
     <!-- /.container -->
   </footer>
   <!-- /.footer -->
+  <div class="modal">
+    <div class="modal-dialog">
+      <h2 class="modal-title">Есть вопросы?</h2>
+      <a href="#" class="modal-close">
+        <svg class="close-icon" width="24" height="24">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </a>
+      <p class="modal-text">
+        Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+      </p>
+      <form action="#" class="modal-form">
+        <div class="input-group-wrapper input-group-vertical">
+          <div class="input-group modal-input-group">
+            <input 
+            id="modal-user-name" 
+            type="text" 
+            class="input modal-input" 
+            placeholder=" ">
+            <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
+          </div>
+          <!-- /.input-group -->
+          <div class="input-group modal-input-group">
+            <input 
+            id="modal-user-phone" 
+            type="tel" 
+            class="input modal-input"
+            placeholder=" ">
+            <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
+          </div>
+          <!-- /.input-group -->
+        </div>
+        <!-- /.input-group-wrapper -->
+        <div class="modal-form-footer">
+          <button type="submit"class="button modal-form-button">Отправить заявку</button>
+          <div class="notify">
+            <svg width="14" height="14" class="notify-icon">
+              <use href="img/sprite.svg#shield"></use>
+            </svg>
+            <p class="notify-text">
+              Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!
+            </p>
+        </div>
+        <!-- /.cta-form-footer -->
+      </form>
+    </div>
+  </div>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
