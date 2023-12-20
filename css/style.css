@@ -37,10 +37,21 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292D33;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.625rem;
 }
 .phone-icon {
   fill: #5C8EE6;
+}
+.logo-dark {
+  display: none;
 }
 .logo-svg {
   width: 8.125rem;
