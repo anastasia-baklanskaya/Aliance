@@ -813,6 +813,27 @@ body {
   width: 100%;
   margin-bottom: 24px;
 }
+.section-single-block {
+  background: #F0F2F5;
+  padding-top: 82px;
+  margin-top: 93px;
+  padding-bottom: 92px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+}
+.single-block-wrapper {
+  width: 960px;
+  height: 96px;
+  margin-left: 178px;
+}
+.single-block-title {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%
+} 
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
