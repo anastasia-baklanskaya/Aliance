@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>О компании - Aliance Production</title>
+    <title><?= $page_title?> - Aliance Production</title>
   </head>
 <body>
   <div class="mobile-menu">
@@ -135,13 +135,19 @@
     </nav>
     <!-- /.navbar -->
 
-    <section class="single-block">
-      <div class="bg-grey section-single-block">
-        <div class="single-block-wrapper container">
-          <div class="seporator"></div>
-          <h2 class="section-title single-block-title">Контакты</h2>
-        </div>
+    <header class="page-header page-header-bg-image">
+      <div class="container">
+        <div class="seporator"></div>
+        <h1 class="page-header-title"><?= $page_title?></h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="#" class="breadcrumbs-link">Главная</a>
+          </li>
+          <li class="breadcrumbs-item active">
+          <a href="#" class="breadcrumbs-link"><?= $page_title?></a>
+          </li>
+        </ul>
       </div>
-    </section> 
-
-    <?php include_once('footer.php');?>
+      <!-- /.container -->
+    </header>
+    <!-- /.page-header -->
