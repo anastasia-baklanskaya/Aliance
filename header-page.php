@@ -135,7 +135,7 @@
     </nav>
     <!-- /.navbar -->
 
-    <header class="page-header page-header-bg-image">
+    <header class="page-header <?= $header_style?>">
       <div class="container">
         <div class="seporator"></div>
         <h1 class="page-header-title"><?= $page_title?></h1>

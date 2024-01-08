@@ -828,37 +828,73 @@ body {
   margin-bottom: 24px;
 }
 .page-header {
+  /* background: #F0F2F5; */
+  padding-top: 9.325rem;
+  /* margin-top: 5.8125rem; */
+  padding-bottom: 3.125rem;
+  /* height: 16.875rem; */
+  color: #292d33;
+  position: relative;
+}
+.page-header-bg-image {
+  background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+.page-header-bg-image:before {
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 45, 51, 0.60);
+}
+.page-header-bg-image .container {
+  position: relative;
+}
+.page-header-bg-grey {
   background: #F0F2F5;
-  padding-top: 82px;
-  margin-top: 93px;
-  padding-bottom: 92px;
-  height: 270px;
-  display: flex;
-  align-items: center;
 }
 .page-header-title {
-  font-family: Bebas Neue;
-  font-size: 80px;
+  font-family: "Bebas Neue";
+  font-size: 5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  color: inherit;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
 } 
 .breadcrumbs {
   display: flex;
+  align-items: center;
   list-style-type: none;
   padding: 0;
   gap: .625rem;
-  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
-.breadcrumbs-item {
-  color: var(--txt2, #828A99);
-  font-family: Noto Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; 
+.breadcrumbs-link {
+  text-decoration: none;
+  color: inherit;
+}
+.breadcrumbs-link {
+  color: #828a99;
+}
+.breadcrumbs-item.active .breadcrumbs-link {
+  color: #292D33;
+}
+.breadcrumbs-item:not(:last-child)::after {
+  content: "-";
+  margin-left: 10px;
+}
+.page-header-bg-image .breadcrumbs-link,
+.page-header-bg-image .breadcrumbs-item.active .breadcrumbs-link {
+  color: #fff;
 }
 
 @media (max-width: 1700px) {
