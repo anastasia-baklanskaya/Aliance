@@ -135,13 +135,5 @@
     </nav>
     <!-- /.navbar -->
 
-    <section class="single-block">
-      <div class="bg-grey section-single-block">
-        <div class="single-block-wrapper container">
-          <div class="seporator"></div>
-          <h2 class="section-title single-block-title">Собственные торговые марки</h2>
-        </div>
-      </div>
-    </section> 
 
     <?php include_once('footer.php');?>
