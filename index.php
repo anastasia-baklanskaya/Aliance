@@ -269,7 +269,11 @@
             </p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_1,5.png" alt="Автомобильная химия" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_1,5.webp">
+              <source type="image/jpeg" srcset="img/card_1,5.png">
+              <img src="img/card_1,5.png" alt="Автомобильная химия">
+            </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -277,7 +281,11 @@
             <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_2,6.png" alt="Бытовая химия" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_2,6.webp">
+              <source type="image/jpeg" srcset="img/card_2,6.png">
+              <img src="img/card_2,6.png" alt="Бытовая химия">
+            </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -285,7 +293,11 @@
             <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_3,4.png" alt="Дезинфицирующие средства" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_3,4.webp">
+              <source type="image/jpeg" srcset="img/card_3,4.png">
+              <img src="img/card_3,4.png" alt="Дезинфицирующие средства">
+            </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -293,7 +305,11 @@
             <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_3,4.png" alt="Пищевые аэрозоли" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_3,4.webp">
+              <source type="image/jpeg" srcset="img/card_3,4.png">
+              <img src="img/card_3,4.png" alt="Пищевые аэрозоли">
+            </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -301,7 +317,11 @@
             <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_1,5.png" alt="Косметическая продукция" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_1,5.webp">
+              <source type="image/jpeg" srcset="img/card_1,5.png">
+              <img src="img/card_1,5.png" alt="Косметическая продукция">
+            </picture>
         </a>
         <a href="#" class="card">
           <div class="card-content">
@@ -309,7 +329,11 @@
             <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
           </div>
           <!-- /.card-content -->
-          <img src="img/card_2,6.png" alt="Краски аэрозольные" class="card-image">
+            <picture>
+              <source type="image/webp" srcset="img/card_2,6.webp">
+              <source type="image/jpeg" srcset="img/card_2,6.png">
+              <img src="img/card_2,6.png" alt="Краски аэрозольные">
+            </picture>
         </a>
       </div>
       <!-- /.cards -->
@@ -319,7 +343,12 @@
   <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php')?>
 
   <section class="section founder">
-    <img src="img/founder.jpg" alt="founder" class="founder-photo">
+    <picture>
+      <source type="image/webp" srcset="img/founder.webp">
+      <source type="image/jpeg" srcset="img/founder.jpg">
+      <img src="img/founder.jpg" alt="founder">
+    </picture>
+    <!-- <img src="img/founder.jpg" alt="founder" class="founder-photo"> -->
     <div class="container">
       <div class="founder-content-wrapper">
         <div class="founder-content">
@@ -413,31 +442,67 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
            <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <picture>
+      <source type="image/webp" srcset="img/client.webp">
+      <source type="image/jpeg" srcset="img/client.png">
+      <img src="img/client.png" alt="client">
+    </picture>
           </a>
           </div>
           <!-- /.clients-logo -->
@@ -458,7 +523,10 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/blog-photo.png" alt="" class="blog-card-image">
+          <picture>
+              <source type="image/webp" srcset="img/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog-photo.png">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -467,7 +535,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/blog-photo-2.png" alt="" class="blog-card-image">
+            <picture>
+              <source type="image/webp" srcset="img/blog-photo-2.webp">
+              <source type="image/jpeg" srcset="img/blog-photo-2.png">
+              <img src="img/blog-photo-2.png" alt="blog-photo-2">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -476,7 +548,10 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/blog-photo.png" alt="" class="blog-card-image">
+            <picture>
+              <source type="image/webp" srcset="img/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog-photo.png">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>

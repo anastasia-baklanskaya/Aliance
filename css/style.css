@@ -8,6 +8,7 @@ html {
   font-family: "Bebas Neue";
   src: url('../fonts/BebasNeueBook.woff') format('woff');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
   }
 
@@ -64,7 +65,8 @@ body {
   padding-top: 5.875rem;
 }
 .header-image {
-  background-image: url('../img/header-bg.jpeg');
+  background-image: url('../img/header-bg.webp');
+  /* background-image: url('../img/header-bg.jpeg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -837,7 +839,8 @@ body {
   position: relative;
 }
 .page-header-bg-image {
-  background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.png);
+  /* background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.png); */
+  background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
