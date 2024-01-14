@@ -172,16 +172,17 @@ forms.forEach((form) => {
       }).then((response) => {
         if (response.ok) {
           thisForm.reset();
-          currentModal.classList.remove("is-open");
+          if (currentModal !== undefined) {
+            currentModal.classList.remove("is-open");
+          }
           alertModal.classList.add("is-open");
           currentModal = alertModal;
-           /* назначаем новое белое диалоговое окно */
           modalDialog = currentModal.querySelector(".modal-dialog");
-            /* отслеживаем клик по окну и пустым областям */
-          currentModal.addEventListener("click", event => {
-              /* если клик в пустую область (не диалог) */
+          /* Отслеживаем клик по окну и пустым областям */
+          currentModal.addEventListener("click", (event) => {
+            /* Если клип в пустую область (не диалог) */
             if (!event.composedPath().includes(modalDialog)) {
-                /* закрываем окно */
+              /* То закрываем окно */
               currentModal.classList.remove("is-open");
             }
           });
