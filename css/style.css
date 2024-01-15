@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
@@ -64,9 +67,11 @@ body {
 .header {
   padding-top: 5.875rem;
 }
+.no-webp .header-image {
+  background-image: url('../img/header-bg.jpeg');  
+}
 .header-image {
   background-image: url('../img/header-bg.webp');
-  /* background-image: url('../img/header-bg.jpeg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -184,7 +189,7 @@ body {
   font-size: 4.0625rem;
   line-height: 120%;
   margin: 2.0625rem 0;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
 }
 .header-text {
   max-width: 40.3125rem;
@@ -840,7 +845,7 @@ body {
 }
 .page-header-bg-image {
   /* background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.png); */
-  background-image: url(D:\Курс Фронтенд-разраб\Aliance-1\img\blog\blog-photo-2.webp);
+  background-image: url('../img/blog/blog-photo-2.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
