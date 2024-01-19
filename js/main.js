@@ -187,7 +187,7 @@ forms.forEach((form) => {
             }
           });
         } else {
-          alert("Ошибка. Текс ошибки: " . response.statusText);
+          alert("Ошибка. Текст ошибки: " + response.statusText);
         }
       });
     };
