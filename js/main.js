@@ -172,9 +172,7 @@ forms.forEach((form) => {
       }).then((response) => {
         if (response.ok) {
           thisForm.reset();
-          if (currentModal !== undefined) {
-            currentModal.classList.remove("is-open");
-          }
+          currentModal.classList.remove("is-open");
           alertModal.classList.add("is-open");
           currentModal = alertModal;
           modalDialog = currentModal.querySelector(".modal-dialog");
