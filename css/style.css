@@ -419,6 +419,15 @@ body {
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE5;
 }
+.about-him-block {
+  display: flex;
+}
+.about-logo-pic {
+  margin-left: 50px;
+}
+.about-him-title {
+  margin-top: -7.5rem;
+}
 .founder {
   min-height: 41.25rem;
   position: relative;
@@ -464,6 +473,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 20px;
 }
 .clients-logo-list {
   flex-shrink: 10;
@@ -490,6 +500,16 @@ body {
   height: 70px;
 }
 .blog-card {
+  display: flex;
+  position: relative;
+  min-height: 25rem;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 3.125rem;
+}
+.about-blog-card {
   display: flex;
   position: relative;
   min-height: 25rem;
@@ -904,7 +924,29 @@ body {
 .page-header-bg-image .breadcrumbs-item.active .breadcrumbs-link {
   color: #fff;
 }
-
+.about-him-block {
+  margin-left: 100px;
+}
+.about-him-item {
+  margin-top: 30px;
+}
+.med-girl {
+  margin-right: 100px;
+}
+.about-aliance-text {
+  display: flex;
+  gap: 63px;
+  margin-bottom: 50px;
+}
+.about-title {
+  margin-bottom: 20px;
+}
+.about-text {
+  max-width: 635px;
+}
+.about-blog-slider-footer {
+  justify-content: flex-end;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;

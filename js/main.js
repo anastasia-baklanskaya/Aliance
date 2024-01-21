@@ -105,6 +105,7 @@ const swiperBlog = new Swiper(".blog-slider", {
   }
 });
 
+
 let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением
