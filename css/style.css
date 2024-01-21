@@ -208,7 +208,22 @@ body {
   color: #fff;
   position: relative;
 }
+.header-features-black {
+  display: flex;
+  min-height: 10.5rem;
+  padding: 0;
+  margin-top: 50px;
+  list-style: none;
+  color: #292D33;
+  position: relative;
+}
 .header-features-item {
+  padding: 1.875rem 3.125rem;
+  height: auto;
+  width: 18rem;
+  border: 1px solid rgba(235, 235, 240, 0.20);
+}
+.header-features-item-black {
   padding: 1.875rem 3.125rem;
   height: auto;
   width: 18rem;
@@ -421,6 +436,7 @@ body {
 }
 .about-him-block {
   display: flex;
+  margin-bottom: -50px;
 }
 .about-logo-pic {
   margin-left: 50px;
@@ -946,6 +962,36 @@ body {
 }
 .about-blog-slider-footer {
   justify-content: flex-end;
+}
+.product-content {
+  width: 90.125rem;
+  margin-left: 9.125rem;
+
+}
+.product-title {
+  color: #292D33;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: .625rem;
+  transition: color 0.2s;
+}
+.product-text {
+  color: #828A99;
+  font-size: 1rem;
+  line-height: 160%; 
+  /* margin-bottom: 12.5rem; */
+}
+.politics-text {
+  color: var(--txt, #292D33);
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 @media (max-width: 1700px) {
   html {

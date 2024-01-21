@@ -1,4 +1,4 @@
-<div class="swiper features-slider">
+      <div class="swiper features-slider">
         <!-- обертка слайдера -->
         <ul class="swiper-wrapper header-features">
           <!-- слайды -->
