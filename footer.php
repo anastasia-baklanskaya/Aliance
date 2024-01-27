@@ -101,7 +101,7 @@
           <h2 class="footer-menu-title">Контрактное производство</h2>
           <ul class="footer-menu-list footer-menu-column-2">
             <li class="footer-menu-item">
-              <a href="" class="footer-menu-link">Автомобильная химия</a>
+              <a href="/product_avtohim.php" class="footer-menu-link">Автомобильная химия</a>
             </li>
             <li class="footer-menu-item">
               <a href="" class="footer-menu-link">Бытовая химия</a>
@@ -158,7 +158,7 @@
           <p class="footer-copyright">
             &copy; <?php echo date('d.m.Y') ?> «Aliance Production». Все права защищены.
           </p>
-          <a href="/politics.php" class="footer-policy">Политики конфиденциальности</a>
+          <a href="/politics.php" class="footer-policy">Политика конфиденциальности</a>
         </div>
         <!-- /.footer-legal -->
         <div class="footer-author">

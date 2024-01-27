@@ -212,10 +212,13 @@ body {
   display: flex;
   min-height: 10.5rem;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   list-style: none;
   color: #292D33;
   position: relative;
+}
+.product-features{
+  margin-top: 150px;
 }
 .header-features-item {
   padding: 1.875rem 3.125rem;
@@ -992,6 +995,16 @@ body {
   line-height: 160%;
   margin-top: 100px;
   margin-bottom: 150px;
+}
+.product-him-block {
+  display: flex;
+}
+.product-him-title {
+  margin-left: 100px;
+}
+.microscope-pic {
+  width: 350px;
+  /* gap: 30px; */
 }
 @media (max-width: 1700px) {
   html {
