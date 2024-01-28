@@ -1,9 +1,13 @@
 <section class="section prodaction">
     <div class="container">
-      <div class="seporator"></div>
-      <h2 class="section-title">Контрактное производство</h2>
+      <?php 
+      if (!empty($block_title)) {
+        echo '<div class="seporator"></div>';
+        echo '<h2 class="section-title">'. $block_title .'</h2>';
+      }
+      ?>
       <div class="cards">
-        <a href="#" class="card">
+        <a href="/product_avtohim.php" class="card">
           <div class="card-content">
             <h3 class="card-title">Автомобильная химия</h3>
             <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.

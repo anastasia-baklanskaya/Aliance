@@ -13,7 +13,7 @@ const lightModeOff = (event) => {
 
 const changeNavHeight = (height) => {
   navbar.style.height = height;
-}
+};
 
 const openMenu = (event) => { // функция открывания меню
   menu.classList.add("is-open"); // вешает класс is-open

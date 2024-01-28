@@ -157,44 +157,127 @@ include_once('header-page.php');?>
           Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.
           </p>
           <div class="clients-content about-him-item">
-            <ul class="clients-list">
+            <ul class="clients-list-him">
               <li class="clients-list-item">
-                Полное описание товаров 
-                <svg width="30" height="30" class="client-list-icon">
+                <svg width="16" height="26" class="client-list-icon">
                   <use href="img/sprite.svg#line"></use>
                 </svg>
+                Антискотч
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="client-list-icon">
-                  <use href="img/sprite.svg#car"></use>
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
                 </svg>
-                Актуальные цены
+                Многоцелевая смазка
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="client-list-icon">
-                  <use href="img/sprite.svg#him"></use>
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
                 </svg>
-                Полное описание товаров 
+                Жидкий ключ
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="client-list-icon">
-                  <use href="img/sprite.svg#car"></use>
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
                 </svg>
-                Актуальные цены
+                Высокотемпературная смазка
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="client-list-icon">
-                  <use href="img/sprite.svg#brush"></use>
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
                 </svg>
-                Лаки и краски
+                Универсальный очиститель деталей
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="client-list-icon">
-                  <use href="img/sprite.svg#him"></use>
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
                 </svg>
-                Химические производства
+                Силиконовая смазка
               </li>
-              
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Цепная смазка
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Медная смазка
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Графитовая смазка
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель кондиционера пенный
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель тормозных дисков
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель битумных пятен
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель кондиционера
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель дросельной заслонки
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель обивки
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Тефлоновая смазка
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Очиститель двигателя
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Универсальный очиститель
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Чернитель шин
+              </li>
+              <li class="clients-list-item">
+                <svg width="16" height="26" class="client-list-icon">
+                  <use href="img/sprite.svg#line"></use>
+                </svg>
+                Чернитель шин + очистка
+              </li>
             </ul>
           </div>   
         </div>

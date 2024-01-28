@@ -154,15 +154,16 @@
       <!-- /.container -->
     </header>
     <?php $block_title = "Схема работы"; include_once('./template-parts/stages-block.php')?>
-  <?php $block_title = "Контрактное производство"; include_once('./template-parts/cards-block.php')?>
+    
+    <?php $block_title = "Контрактное производство"; include_once('./template-parts/cards-block.php')?>
 
-  <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php')?>
+    <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php')?>
 
-  <?php $block_title = "Отношение к делу и к клиентам"; include_once('./template-parts/founder-wrapper-block.php')?>
-  <!-- /.section founder -->
+    <?php $block_title = "Отношение к делу и к клиентам"; include_once('./template-parts/founder-wrapper-block.php')?>
+    <!-- /.section founder -->
 
-  <?php $block_title = "Отношение к делу и к клиентам"; include_once('./template-parts/clients-block.php')?>
-  <!-- /.section clients -->
+    <?php $block_title = "Отношение к делу и к клиентам"; include_once('./template-parts/clients-block.php')?>
+    <!-- /.section clients -->
 
   <section class="section blog">
     <div class="container">

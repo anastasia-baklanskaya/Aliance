@@ -6,7 +6,6 @@
         echo '<h2 class="section-title">'. $block_title .'</h2>';
       }
       ?>
-      <h2 class="section-title">Собственные марки</h2>
       <div class="trademark-cards">
         <div class="trademark-card">
           <svg class="trademark-card-logo">
