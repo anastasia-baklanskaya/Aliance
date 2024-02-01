@@ -173,18 +173,10 @@ forms.forEach((form) => {
       }).then((response) => {
         if (response.ok) {
           thisForm.reset();
-          currentModal.classList.remove("is-open");
+          if (typeof currentModal !== "undefined") { // для формы, открывающейся в модальном окне
+            currentModal.classList.remove("is-open");            
+          }
           alertModal.classList.add("is-open");
-          currentModal = alertModal;
-          modalDialog = currentModal.querySelector(".modal-dialog");
-          /* Отслеживаем клик по окну и пустым областям */
-          currentModal.addEventListener("click", (event) => {
-            /* Если клип в пустую область (не диалог) */
-            if (!event.composedPath().includes(modalDialog)) {
-              /* То закрываем окно */
-              currentModal.classList.remove("is-open");
-            }
-          });
         } else {
           alert("Ошибка. Текст ошибки: " + response.statusText);
         }
